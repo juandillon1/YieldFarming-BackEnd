@@ -1,0 +1,35 @@
+{
+  "name": "juandillon-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juandillon1/JuanDillonBackEnd.git"
+  },
+  "author": "Juan Dillon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juandillon1/JuanDillonBackEnd/issues"
+  },
+  "homepage": "https://github.com/juandillon1/JuanDillonBackEnd#readme",
+  "dependencies": {
+    "aws-sdk": "^2.828.0",
+    "body-parser": "^1.19.0",
+    "cloudinary": "^1.23.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.0",
+    "firebase-admin": "^9.4.2",
+    "heroku": "^7.47.7",
+    "method-override": "^3.0.0",
+    "mongoose": "^5.11.11",
+    "nodemailer": "^6.4.17",
+    "nodemon": "^2.0.7",
+    "uuid-v4": "^0.1.0"
+  }
+}
